@@ -14,8 +14,6 @@ body {
   border-radius: 33px;
   background-color: #fbe5d5;
   padding: 5px;
- 
-
 }
 
 .placeImage {
@@ -32,10 +30,9 @@ body {
   outline: 1px solid black;
   border-radius: 33px;
   background: #fbe5d5;
-padding: 10px;
+  padding: 10px;
   font-size: 30px;
   margin: 5px auto;
-
 }
 
 .placeStyle {

@@ -52,8 +52,6 @@ const placeList = [
   },
 ];
 
-
-
 function Places(): JSX.Element {
   return (
     <section>

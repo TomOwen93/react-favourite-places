@@ -18,7 +18,9 @@ function PlaceItem({
   return (
     <div className="placeStyle">
       <h1 className="placeTitle">{title}</h1>
-      <h2 className="countryTitle">{placeName} - {countryName}</h2>
+      <h2 className="countryTitle">
+        {placeName} - {countryName}
+      </h2>
       <img className="placeImage" src={mainImage}></img>
       <p>
         <strong>Reason:</strong> {explanation}
