@@ -29,5 +29,4 @@ function PlaceItem({
   );
 }
 
-export default PlaceItem
-
+export default PlaceItem;
