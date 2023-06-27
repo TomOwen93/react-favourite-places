@@ -1,4 +1,4 @@
-interface PlaceProps {
+export interface PlaceProps {
   title: string;
   placeName: string;
   countryName: string;
@@ -21,7 +21,7 @@ function PlaceItem({
       <h2 className="countryTitle">
         {placeName} - {countryName}
       </h2>
-      <img className="placeImage" src={mainImage}></img>
+      <img className="placeImage" src={mainImage} alt={placeName}></img>
       <p>
         <strong>Reason:</strong> {explanation}
       </p>
@@ -29,4 +29,5 @@ function PlaceItem({
   );
 }
 
-export default PlaceItem;
+export default PlaceItem
+
